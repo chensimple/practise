@@ -1,0 +1,21 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>抽奖程序</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <p>一等奖数量:<input type="text" name="firNum" pattern="[0-9]+" onFocus="this.value=''" value="0" /></p>
+        <p>二等奖数量:<input type="text" name="secNum" pattern="[0-9]+" onFocus="this.value=''" value="0" /></p>
+        <p>三等奖数量:<input type="text" name="thiNum" pattern="[0-9]+" onFocus="this.value=''" value="0" /></p>
+        <p>名单列表("回车分割名单"):</p>
+        <p><textarea name="md" id="md" cols="45" rows="5" style="resize:none"></textarea></p>
+        <button type="submit" >抽奖</button>
+    </form>
+</body>
+
+</html>
